@@ -5,6 +5,11 @@ html{
     position: absolute;
     z-index: -5;
 }
+#wrapper{
+    padding: 1rem;
+    position: relative;
+    height: 100vh;
+}
 #front-card{
     background-image: url(images/bg-card-front.png);
     background-size: contain;
