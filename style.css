@@ -13,7 +13,9 @@ html{
 }
 #front-card{
     position: relative;
+    z-index: 1;
 }
 .bg-card{
     position: absolute;
+    z-index: -1;
 }
