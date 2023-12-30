@@ -5,3 +5,6 @@ html{
     position: absolute;
     z-index: -5;
 }
+.bg-card{
+    width: 250px;
+}
