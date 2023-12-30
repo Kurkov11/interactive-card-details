@@ -17,7 +17,7 @@ html{
     width: 262.5px;
     height: 143.87px;
     position: absolute;
-    left: 0;
+    left: 1rem;
 }
 #back-card{
     background-image: url(images/bg-card-back.png);
@@ -26,5 +26,5 @@ html{
     width: 262.5px;
     height: 143.87px;
     position: absolute;
-    right: 0;
+    right: 1rem;
 }
