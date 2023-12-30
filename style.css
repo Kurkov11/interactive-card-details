@@ -8,3 +8,12 @@ html{
 .bg-card{
     width: 250px;
 }
+#back-card{
+    position: relative;
+}
+#front-card{
+    position: relative;
+}
+.bg-card{
+    position: absolute;
+}
