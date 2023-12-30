@@ -14,8 +14,8 @@ html{
     background-image: url(images/bg-card-front.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 262.5px;
-    height: 143.87px;
+    width: 291.55px;
+    height: 159.79px;
     position: absolute;
     left: 1rem;
     top: 8.5rem;
@@ -24,8 +24,8 @@ html{
     background-image: url(images/bg-card-back.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 262.5px;
-    height: 143.87px;
+    width: 291.55px;
+    height: 159.79px;
     position: absolute;
     right: 1rem;
     top: 2rem;
