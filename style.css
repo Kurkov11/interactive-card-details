@@ -50,3 +50,7 @@ html{
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
 }
+#name-date{
+    display: flex;
+    justify-content: space-between;
+}
