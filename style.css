@@ -42,3 +42,7 @@ html{
     font-size: 0.7rem;
     color: white;
 }
+#card-bottom{
+    display: flex;
+    justify-content: space-between;
+}
