@@ -5,3 +5,9 @@ html{
     position: absolute;
     z-index: -5;
 }
+#front-card{
+    background-image: url(images/bg-card-front.png);
+}
+#back-card{
+    background-image: url(images/bg-card-back.png);
+}
