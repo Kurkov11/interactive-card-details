@@ -21,6 +21,9 @@ html{
     top: 8.5rem;
     color: white;
     padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #card-logo{
     width: 50px;
