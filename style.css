@@ -10,3 +10,8 @@ html{
     background-size: contain;
     background-repeat: no-repeat;
 }
+#front-card{
+    background-image: url('images/bg-card-front.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
