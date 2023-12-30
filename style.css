@@ -19,6 +19,7 @@ html{
     position: absolute;
     left: 1rem;
     top: 8.5rem;
+    color: white;
 }
 #back-card{
     background-image: url(images/bg-card-back.png);
