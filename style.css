@@ -1,3 +1,7 @@
 html{
     font-family: 'space grotesk';
 }
+#bg-main-mobile{
+    position: absolute;
+    z-index: -5;
+}
