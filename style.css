@@ -44,7 +44,9 @@ html{
     right: 2.4rem;
     font-size: 0.7rem;
     color: white;
+    letter-spacing: 0.1rem;
 }
 #number{
     font-size: 1.2rem;
+    letter-spacing: 0.1rem;
 }
