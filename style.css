@@ -57,7 +57,7 @@ html{
     justify-content: space-between;
     font-size: 0.7rem;
 }
-#form-container{
+#forms-container{
     position: absolute;
     bottom: 1rem;
     display: flex;
