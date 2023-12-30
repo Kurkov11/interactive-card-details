@@ -5,15 +5,3 @@ html{
     position: absolute;
     z-index: -5;
 }
-.bg-card{
-    width: 250px;
-    position: absolute;
-    z-index: -1;
-}
-#back-card{
-    position: relative;
-}
-#front-card{
-    position: relative;
-    z-index: 1;
-}
