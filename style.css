@@ -30,3 +30,10 @@ html{
     right: 1rem;
     top: 2.9rem;
 }
+#cvc{
+    position: absolute;
+    top: 4.45rem;
+    right: 2.4rem;
+    font-size: 0.7rem;
+    color: white;
+}
