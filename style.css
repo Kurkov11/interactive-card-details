@@ -7,7 +7,11 @@ html{
 }
 #front-card{
     background-image: url(images/bg-card-front.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 #back-card{
     background-image: url(images/bg-card-back.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
