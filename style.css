@@ -62,7 +62,7 @@ html{
 #name-date{
     display: flex;
     justify-content: space-between;
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
 }
