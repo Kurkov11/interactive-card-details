@@ -1,6 +1,9 @@
 html{
     font-family: 'space grotesk';
 }
+a{
+    text-decoration: underline;
+}
 #bg-main-mobile{
     width: 100%;
     position: absolute;
