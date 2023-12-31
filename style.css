@@ -136,3 +136,12 @@ input{
     padding: 1rem 0;
     border-radius: 0.5rem;
 }
+
+@media only screen and (width >= 600px){
+    .input-title{
+        font-size: 1rem; /* 0.2rem increase */
+    }
+    #confirm-btn{
+        font-size: 1.2rem;
+    }
+}
