@@ -150,6 +150,9 @@ input{
     .form{
         margin-bottom: 2.5rem; /* 0.5rem increase */
     }
+    #forms-container{
+        max-width: 360px; /* 20px increase */
+    }
     #confirm-btn{
         font-size: 1.2rem; /* 0.1rem increase */
     }
