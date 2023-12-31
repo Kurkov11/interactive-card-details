@@ -116,4 +116,6 @@ input{
 #confirm-btn{
     background-color: hsl(278, 68%, 11%);
     color: hsl(270, 3%, 87%);
+    text-align: center;
+    padding: 1rem 0;
 }
