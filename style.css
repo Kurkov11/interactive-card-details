@@ -71,6 +71,7 @@ html{
 }
 input{
     border: 1px solid hsla(279, 6%, 55%, 0.3);
+    padding: 0.7rem;
 }
 #name-input{
     width: 100%;
