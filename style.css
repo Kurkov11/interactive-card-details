@@ -13,6 +13,8 @@ html{
 }
 #cards{
     position: relative;
+    display: flex;
+    justify-content: right;
 }
 #front-card{
     background-image: url(images/bg-card-front.png);
@@ -27,6 +29,7 @@ html{
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
+    left: 0;
 }
 #card-logo{
     width: 50px;
