@@ -75,6 +75,7 @@ html{
     margin-top: 20vh;
     display: flex;
     flex-direction: column;
+    padding-bottom: 3rem;
 }
 .form{
     margin-bottom: 2rem;
