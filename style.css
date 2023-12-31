@@ -141,8 +141,11 @@ input{
     .input-title{
         font-size: 1rem; /* 0.2rem increase */
     }
+    .form{
+        margin-bottom: 2.5rem; /* 0.5rem increase */
+    }
     #confirm-btn{
-        font-size: 1.2rem;
+        font-size: 1.2rem; /* 0.1rem increase */
     }
     #month-input{
         max-width: 85px; /* 10px increase */
