@@ -138,6 +138,12 @@ input{
 }
 
 @media only screen and (width >= 600px){
+    input::placeholder{
+        font-size: 1.05rem; /* 0.05 rem increase */
+    }
+    input{
+        padding: 0.8rem; /* 0.1rem increase */
+    }
     .input-title{
         font-size: 1rem; /* 0.2rem increase */
     }
