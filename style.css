@@ -17,8 +17,6 @@ html{
     background-repeat: no-repeat;
     width: 291.55px;
     height: 159.79px;
-    position: absolute;
-    left: 1rem;
     top: 8.5rem;
     color: white;
     padding: 1.2rem;
@@ -35,12 +33,9 @@ html{
     background-repeat: no-repeat;
     width: 291.55px;
     height: 159.79px;
-    position: absolute;
-    right: 1rem;
     top: 2.9rem;
 }
 #cvc{
-    position: absolute;
     top: 4.45rem;
     right: 2.4rem;
     font-size: 0.7rem;
