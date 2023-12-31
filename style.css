@@ -8,9 +8,9 @@ html{
     height: 250px;
 }
 #wrapper{
-    padding: 1.4rem;
+    padding: 2rem 1.4rem;
     position: relative;
-    height: 100vh;
+    height: 100%;
 }
 #cards{
     position: relative;
