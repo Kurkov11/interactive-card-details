@@ -5,6 +5,7 @@ html{
     width: 100%;
     position: absolute;
     z-index: -5;
+    height: 250px;
 }
 #wrapper{
     padding: 1rem;
