@@ -150,6 +150,9 @@ input{
     .form{
         margin-bottom: 2.5rem; /* 0.5rem increase */
     }
+    #date-cvc-form{
+        gap: 0.8rem; /* 0.3rem increase */
+    }
     #forms-container{
         max-width: 360px; /* 20px increase */
     }
@@ -158,6 +161,7 @@ input{
     }
     #month-input{
         max-width: 85px; /* 10px increase */
+        margin-right: 0.8rem; /* 0.3rem increase */
     }
     #year-input{
         max-width: 85px; /* 10px increase */
