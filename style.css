@@ -190,4 +190,7 @@ input{
     #back-card{
         margin-top: 12rem;
     }
+    #cards{
+        max-width: 350px;
+    }
 }
