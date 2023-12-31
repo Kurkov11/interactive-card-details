@@ -78,6 +78,7 @@ a{
     margin-top: 20vh;
     display: flex;
     flex-direction: column;
+    max-width: 340px;
 }
 .form{
     margin-bottom: 2rem;
