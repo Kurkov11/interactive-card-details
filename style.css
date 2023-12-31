@@ -89,3 +89,12 @@ input{
 #number-input{
     width: 100%;
 }
+#double-input{
+    display: flex;
+}
+#month-input{
+    max-width: 70px;
+}
+#year-input{
+    max-width: 70px;
+}
