@@ -195,5 +195,6 @@ input{
     }
     #cards{
         max-width: 370px;
+        margin-left: 2.8rem;
     }
 }
