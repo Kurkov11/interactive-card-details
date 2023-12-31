@@ -184,4 +184,10 @@ input{
         flex-direction: row;
         min-height: 100vh;
     }
+    #front-card{
+        top: 0;
+    }
+    #back-card{
+        margin-top: 12rem;
+    }
 }
