@@ -183,11 +183,12 @@ input{
     #wrapper{
         flex-direction: row;
         min-height: 100vh;
-        padding: 5rem 20vh;
+        padding: 5rem 27vh;
         justify-content: space-between;
     }
     #forms-container{
         margin-top: 0;
+        max-width: 400px;
     }
     #front-card{
         scale: 1.4;
