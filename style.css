@@ -113,3 +113,7 @@ input{
 #cvc-input{
     width: 100%;
 }
+#confirm-btn{
+    background-color: hsl(278, 68%, 11%);
+    color: hsl(270, 3%, 87%);
+}
