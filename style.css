@@ -103,12 +103,15 @@ input{
 #date-cvc-form{
     display: flex;
     gap: 0.5rem;
+    margin-bottom: 2rem;
 }
 #date-form{
     width: fit-content;
+    margin-bottom: 0;
 }
 #cvc-form{
     width: fit-content;
+    margin-bottom: 0;
 }
 #cvc-input{
     width: 100%;
