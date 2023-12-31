@@ -110,3 +110,6 @@ input{
 #cvc-form{
     width: fit-content;
 }
+#cvc-input{
+    width: 100%;
+}
