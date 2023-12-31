@@ -184,6 +184,7 @@ input{
         flex-direction: row;
         min-height: 100vh;
         padding: 5rem 20vh;
+        justify-content: space-between;
     }
     #front-card{
         scale: 1.3;
