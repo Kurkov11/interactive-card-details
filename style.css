@@ -183,6 +183,7 @@ input{
     #wrapper{
         flex-direction: row;
         min-height: 100vh;
+        padding: 5rem 20vh;
     }
     #front-card{
         scale: 1.3;
