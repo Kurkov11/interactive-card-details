@@ -180,4 +180,8 @@ input{
     #bg-main-mobile{
         display: none;
     }
+    #wrapper{
+        flex-direction: row;
+        min-height: 100vh;
+    }
 }
