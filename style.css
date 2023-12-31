@@ -95,11 +95,11 @@ input{
     width: fit-content;
 }
 #month-input{
-    max-width: 100px;
+    max-width: 75px;
     margin-right: 0.5rem;
 }
 #year-input{
-    max-width: 100px;
+    max-width: 75px;
 }
 #date-cvc-form{
     display: flex;
