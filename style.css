@@ -91,6 +91,7 @@ input{
 }
 #double-input{
     display: flex;
+    width: fit-content;
 }
 #month-input{
     max-width: 70px;
