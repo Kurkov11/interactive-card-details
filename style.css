@@ -144,4 +144,10 @@ input{
     #confirm-btn{
         font-size: 1.2rem;
     }
+    #month-input{
+        max-width: 85px; /* 10px increase */
+    }
+    #year-input{
+        max-width: 85px; /* 10px increase */
+    }
 }
