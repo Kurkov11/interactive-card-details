@@ -11,18 +11,22 @@ html{
     position: relative;
     height: 100vh;
 }
+#cards{
+    position: relative;
+}
 #front-card{
     background-image: url(images/bg-card-front.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 291.55px;
     height: 159.79px;
-    top: 8.5rem;
+    top: 5.6rem;
     color: white;
     padding: 1.2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: absolute;
 }
 #card-logo{
     width: 50px;
