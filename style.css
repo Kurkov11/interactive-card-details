@@ -174,6 +174,8 @@ input{
 @media only screen and (width >= 1000px){
     #bg-main-desktop{
         display: block;
+        position: absolute;
+        height: 100vh;
     }
     #bg-main-mobile{
         display: none;
