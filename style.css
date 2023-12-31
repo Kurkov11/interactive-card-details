@@ -62,8 +62,7 @@ html{
     font-size: 0.7rem;
 }
 #forms-container{
-    position: absolute;
-    bottom: 1rem;
+    margin-top: 7rem;
     display: flex;
     flex-direction: column;
 }
