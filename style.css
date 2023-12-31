@@ -23,7 +23,7 @@ html{
     width: 291.55px;
     height: 159.79px;
     top: 5.6rem;
-    color: white;
+    color: hsl(270, 3%, 87%);
     padding: 1.2rem;
     display: flex;
     flex-direction: column;
@@ -64,6 +64,7 @@ html{
     justify-content: space-between;
     font-size: 0.7rem;
     text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 #forms-container{
     margin-top: 7rem;
