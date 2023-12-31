@@ -99,3 +99,6 @@ input{
 #year-input{
     max-width: 70px;
 }
+#date-form{
+    width: fit-content;
+}
