@@ -10,6 +10,9 @@ a{
     z-index: -5;
     height: 250px;
 }
+#bg-main-desktop{
+    display: none;
+}
 #wrapper{
     padding: 2rem 1.4rem;
     position: relative;
@@ -169,5 +172,7 @@ input{
 }
 
 @media only screen and (width >= 1000px){
-    
+    #bg-main-desktop{
+        display: block;
+    }
 }
