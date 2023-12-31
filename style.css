@@ -58,7 +58,7 @@ html{
 }
 .input-title{
     text-transform: uppercase;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: hsl(278, 68%, 11%);
     letter-spacing: 0.1rem;
     padding-bottom: 0.4rem;
@@ -76,7 +76,7 @@ html{
     flex-direction: column;
 }
 .form{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 input{
     border: 1px solid hsla(279, 6%, 55%, 0.3);
