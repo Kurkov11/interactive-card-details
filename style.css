@@ -121,6 +121,8 @@ input:hover{
 }
 #month-input{
     max-width: 75px;
+}
+#month-input-gradient{
     margin-right: 0.5rem;
 }
 #year-input{
@@ -185,6 +187,8 @@ input:hover{
     }
     #month-input{
         max-width: 85px; /* 10px increase */
+    }
+    #month-input-gradient{
         margin-right: 0.8rem; /* 0.3rem increase */
     }
     #year-input{
