@@ -102,7 +102,6 @@ input{
     background-color: white;
 }
 .input-gradient{
-    background-image: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
     border-radius: 5px;
     padding: 1px;
 }
