@@ -99,6 +99,12 @@ input{
     border: 1px solid hsla(279, 6%, 55%, 0.3);
     border-radius: 5px;
     padding: 0.7rem;
+    background-color: white;
+}
+.input-gradient{
+    background-image: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
+    border-radius: 5px;
+    padding: 1px;
 }
 input:hover{
     cursor: pointer;
