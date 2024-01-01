@@ -137,6 +137,11 @@ input:hover{
 #cvc-input{
     width: 100%;
 }
+.blank-error{
+    font-size: 0.8rem;
+    color: hsl(0, 100%, 66%);
+    margin-top: 0.5rem;
+}
 #confirm-btn{
     background-color: hsl(278, 68%, 11%);
     color: hsl(270, 3%, 87%);
