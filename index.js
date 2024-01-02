@@ -26,6 +26,6 @@ document.getElementById('html_body').onclick = function(){
     }
 }
 
-document.getElementById('confrim-btn').onclick = function(){
+document.getElementById('confirm-btn').onclick = function(){
     
 }
