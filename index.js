@@ -42,11 +42,8 @@ document.getElementById('html_body').onclick = function(){
         document.getElementById('name-blank').style.display = 'none';
     }
     if(numberEmpty){
-        document.getElementById('number-input-gradient').style.backgroundImage = 'none';
-        document.getElementById('number-input').style.outline = '1px solid hsl(0, 100%, 66%)';
         document.getElementById('number-blank').style.display = 'block';
     }else{
-        document.getElementById('number-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
         document.getElementById('number-blank').style.display = 'none';
     }
     if(monthEmpty){
@@ -78,9 +75,14 @@ document.getElementById('html_body').onclick = function(){
     }
     if(numberWrongFormat){
         document.getElementById('number-wrong-format').style.display = 'block';
-        document.getElementById('number-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
         document.getElementById('number-wrong-format').style.display = 'none';
+    }
+
+    if(numberWrongFormat || numberEmpty){
+        document.getElementById('number-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+        document.getElementById('number-input-gradient').style.backgroundImage = 'none';
+    }else{
         document.getElementById('number-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
 }
