@@ -34,5 +34,29 @@ document.getElementById('html_body').onclick = function(){
 }
 
 document.getElementById('confirm-btn').onclick = function(){
-    
+    if(document.getElementById('name-input').value == ''){
+        nameOutlineRed = true;
+    }else{
+        nameOutlineRed = false;
+    }
+    if(document.getElementById('number-input').value == ''){
+        numberOutlineRed = true;
+    }else{
+        numberOutlineRed = false;
+    }
+    if(document.getElementById('month-input').value == ''){
+        monthOutlineRed = true;
+    }else{
+        monthOutlineRed = false;
+    }
+    if(document.getElementById('year-input').value == ''){
+        yearOutlineRed = true;
+    }else{
+        yearOutlineRed = false;
+    }
+    if(document.getElementById('cvc-input').value == ''){
+        cvcOutlineRed = true;
+    }else{
+        cvcOutlineRed = false;
+    }
 }
