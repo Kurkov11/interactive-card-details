@@ -31,6 +31,32 @@ document.getElementById('html_body').onclick = function(){
             gradientList[i].style.backgroundImage = 'none';
         }
     }
+
+    if(nameOutlineRed){
+        document.getElementById('name-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+    }else{
+        document.getElementById('name-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+    }
+    if(numberOutlineRed){
+        document.getElementById('number-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+    }else{
+        document.getElementById('number-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+    }
+    if(monthOutlineRed){
+        document.getElementById('month-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+    }else{
+        document.getElementById('month-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+    }
+    if(yearOutlineRed){
+        document.getElementById('year-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+    }else{
+        document.getElementById('year-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+    }
+    if(cvcOutlineRed){
+        document.getElementById('cvc-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+    }else{
+        document.getElementById('cvc-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+    }
 }
 
 document.getElementById('confirm-btn').onclick = function(){
