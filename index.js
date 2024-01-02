@@ -88,33 +88,40 @@ document.getElementById('html_body').onclick = function(){
 }
 
 document.getElementById('confirm-btn').onclick = function(){
+    let errorOcurred = false;
     if(document.getElementById('name-input').value == ''){
         nameEmpty = true;
+        errorOcurred = true;
     }else{
         nameEmpty = false;
     }
     if(document.getElementById('number-input').value == ''){
         numberEmpty = true;
+        errorOcurred = true;
     }else{
         numberEmpty = false;
     }
     if(document.getElementById('month-input').value == ''){
         monthEmpty = true;
+        errorOcurred = true;
     }else{
         monthEmpty = false;
     }
     if(document.getElementById('year-input').value == ''){
         yearEmpty = true;
+        errorOcurred = true;
     }else{
         yearEmpty = false;
     }
     if(document.getElementById('cvc-input').value == ''){
         cvcEmpty = true;
+        errorOcurred = true;
     }else{
         cvcEmpty = false;
     }
     if(!isNumber(document.getElementById('number-input').value)){
         numberWrongFormat = true;
+        errorOcurred = true;
     }else{
         numberWrongFormat = false;
     }
