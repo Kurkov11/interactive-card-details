@@ -1,4 +1,11 @@
 let inputList = document.getElementsByClassName('card-input');
+
+let nameOutlineRed = false;
+let numberOutlineRed = false;
+let monthOutlineRed = false;
+let yearOutlineRed = false;
+let cvcOutlineRed = false;
+
 document.getElementById('html_body').onclick = function(){
     console.log('body clicked');
     let gradientList = document.getElementsByClassName('input-gradient');
