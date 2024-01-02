@@ -216,7 +216,7 @@ button{
     main{
         max-width: 360px; /* 20px increase */
     }
-    #confirm-btn{
+    button{
         font-size: 1.2rem; /* 0.1rem increase */
     }
     #month-input{
@@ -264,7 +264,7 @@ button{
     .input-title{
         font-size: 0.8rem; /* Go back to the state from mobile view */
     }
-    #confirm-btn{
+    button{
         font-size: 1.1rem; /* Go back to the state from mobile view */
     }
     #complete-state{
