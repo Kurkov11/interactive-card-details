@@ -179,6 +179,7 @@ button:hover{
     text-align: center;
     margin-top: 20vh;
     width: 100%;
+    max-width: 360px;
 }
 #icon-complete{
     width: 70px;
