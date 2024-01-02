@@ -168,7 +168,7 @@ button{
     border-radius: 0.5rem;
     width: 100%;
 }
-#confirm-btn:hover{
+button:hover{
     cursor: pointer;
 }
 
