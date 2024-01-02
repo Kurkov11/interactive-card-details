@@ -207,7 +207,7 @@ input:hover{
     }
 }
 
-@media only screen and (width >= 1400px){
+@media only screen and (width >= 1450px){
     #bg-main-desktop{
         display: block;
         position: absolute;
