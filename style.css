@@ -4,6 +4,9 @@ html{
 a{
     text-decoration: underline;
 }
+a:hover{
+    cursor: pointer;
+}
 #bg-main-mobile{
     width: 100%;
     position: absolute;
