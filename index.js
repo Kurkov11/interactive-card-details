@@ -34,6 +34,7 @@ document.getElementById('html_body').onclick = function(){
     }
 
     if(nameEmpty){
+        document.getElementById('name-input-gradient').style.backgroundImage = 'none';
         document.getElementById('name-input').style.outline = '1px solid hsl(0, 100%, 66%)';
         document.getElementById('name-blank').style.display = 'block';
     }else{
@@ -41,6 +42,7 @@ document.getElementById('html_body').onclick = function(){
         document.getElementById('name-blank').style.display = 'none';
     }
     if(numberEmpty){
+        document.getElementById('number-input-gradient').style.backgroundImage = 'none';
         document.getElementById('number-input').style.outline = '1px solid hsl(0, 100%, 66%)';
         document.getElementById('number-blank').style.display = 'block';
     }else{
@@ -48,6 +50,7 @@ document.getElementById('html_body').onclick = function(){
         document.getElementById('number-blank').style.display = 'none';
     }
     if(monthEmpty){
+        document.getElementById('month-input-gradient').style.backgroundImage = 'none';
         document.getElementById('month-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
         document.getElementById('month-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
@@ -60,11 +63,13 @@ document.getElementById('html_body').onclick = function(){
     }
 
     if(yearEmpty){
+        document.getElementById('year-input-gradient').style.backgroundImage = 'none';
         document.getElementById('year-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
         document.getElementById('year-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
     if(cvcEmpty){
+        document.getElementById('cvc-input-gradient').style.backgroundImage = 'none';
         document.getElementById('cvc-input').style.outline = '1px solid hsl(0, 100%, 66%)';
         document.getElementById('cvc-blank').style.display = 'block';
     }else{
