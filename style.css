@@ -38,8 +38,8 @@ a:hover{
     background-image: url(images/bg-card-front.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 291.55px;
-    height: 159.79px;
+    width: 291.55px; /* Match the size to fit the whole background neatly */
+    height: 159.79px; /* Match the size to fit the whole background neatly */
     top: 5.6rem;
     color: hsl(270, 3%, 87%);
     padding: 1.2rem;
@@ -56,8 +56,8 @@ a:hover{
     background-image: url(images/bg-card-back.png);
     background-size: contain;
     background-repeat: no-repeat;
-    width: 291.55px;
-    height: 159.79px;
+    width: 291.55px; /* Match the size to fit the whole background neatly */
+    height: 159.79px; /* Match the size to fit the whole background neatly */
     top: 2.9rem;
     display: flex;
     align-items: center;
@@ -219,7 +219,7 @@ input:hover{
     #wrapper{
         flex-direction: row;
         min-height: 100vh;
-        padding: 5rem 27vh;
+        padding: 5rem 27vh; /* +3rem, use vh instead of rem, so that main is more responsive */
         justify-content: space-between;
     }
     main{
@@ -227,22 +227,22 @@ input:hover{
         max-width: 400px;
     }
     #front-card{
-        scale: 1.4;
+        scale: 1.4; /* 40% increase  - self explanatory :D */
         top: 0;
     }
     #back-card{
-        scale: 1.4;
-        margin-top: 16rem;
+        scale: 1.4; /* 40% increase  - self explanatory :D */
+        margin-top: 16rem; /* Move back card below front card */
     }
     #cards{
         max-width: 370px;
-        margin-left: 2.8rem;
+        margin-left: 2.8rem; /* Position cards div away from the left side, as wrapper does not work properly */
     }
     .input-title{
-        font-size: 0.8rem;
+        font-size: 0.8rem; /* Go back to the state from mobile view */
     }
     #confirm-btn{
-        font-size: 1.1rem;
+        font-size: 1.1rem; /* Go back to the state from mobile view */
     }
     .attribution{
         position: absolute;
