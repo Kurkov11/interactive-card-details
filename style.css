@@ -267,6 +267,9 @@ button{
     #confirm-btn{
         font-size: 1.1rem; /* Go back to the state from mobile view */
     }
+    #complete-state{
+        margin-top: 0;
+    }
     .attribution{
         position: absolute;
         bottom: 0;
