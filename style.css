@@ -174,8 +174,9 @@ input:hover{
 #complete-state{
     display: none;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     text-align: center;
+    margin-top: 10rem;
 }
 @media only screen and (width >= 600px){
     input::placeholder{
@@ -222,7 +223,7 @@ input:hover{
     #wrapper{
         flex-direction: row;
         min-height: 100vh;
-        padding: 5rem 24vh; /* +3rem, use vh instead of rem, so that main is more responsive */
+        padding: 5rem 24vh; /* +3rem, use vh instead of rem, so that content is more responsive */
         justify-content: space-between;
     }
     main{
