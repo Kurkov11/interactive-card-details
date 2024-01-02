@@ -178,6 +178,7 @@ button{
     align-items: center;
     text-align: center;
     margin-top: 20vh;
+    width: 100%;
 }
 #icon-complete{
     width: 70px;
