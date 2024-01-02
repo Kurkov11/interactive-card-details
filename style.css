@@ -102,7 +102,7 @@ input{
     background-color: white;
 }
 .input-gradient{
-    border-radius: 5px;
+    border-radius: 6px;
     padding: 1px;
 }
 input:hover{
