@@ -178,6 +178,10 @@ input:hover{
     text-align: center;
     margin-top: 10rem;
 }
+#icon-complete{
+    width: 70px;
+    height: 70px;
+}
 @media only screen and (width >= 600px){
     input::placeholder{
         font-size: 1.05rem; /* 0.05 rem increase */
