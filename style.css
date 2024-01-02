@@ -183,16 +183,19 @@ button{
 #icon-complete{
     width: 70px;
     height: 70px;
+    margin-bottom: 1.5rem;
 }
 #thank-you-text{
     font-size: 1.7rem;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     color: hsl(278, 68%, 11%);
+    margin-bottom: 1rem;
 }
 #added-info{
     color: hsl(279, 6%, 55%);
     font-size: 1.1rem;
+    margin-bottom: 2.5rem;
 }
 @media only screen and (width >= 600px){
     input::placeholder{
