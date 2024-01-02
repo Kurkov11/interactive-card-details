@@ -106,6 +106,6 @@ document.getElementById('confirm-btn').onclick = function(){
     }
 }
 
-function isNumber(number){
-    return typeof number === 'number';
+function isNumber(value){
+    return !isNaN(value);
 }
