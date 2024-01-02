@@ -171,6 +171,9 @@ input:hover{
     cursor: pointer;
 }
 
+#complete-state{
+    display: none;
+}
 @media only screen and (width >= 600px){
     input::placeholder{
         font-size: 1.05rem; /* 0.05 rem increase */
