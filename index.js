@@ -1,6 +1,6 @@
+let inputList = document.getElementsByClassName('card-input');
 document.getElementById('html_body').onclick = function(){
     console.log('body clicked');
-    let inputList = document.getElementsByClassName('card-input');
     let gradientList = document.getElementsByClassName('input-gradient');
     let anyInputActive = false;
 
@@ -24,4 +24,8 @@ document.getElementById('html_body').onclick = function(){
             gradientList[i].style.backgroundImage = 'none';
         }
     }
+}
+
+document.getElementById('confrim-btn').onclick = function(){
+    
 }
