@@ -1,10 +1,10 @@
 let inputList = document.getElementsByClassName('card-input');
 
-let nameOutlineRed = false;
-let numberOutlineRed = false;
-let monthOutlineRed = false;
-let yearOutlineRed = false;
-let cvcOutlineRed = false;
+let nameEmpty = false;
+let numberEmpty = false;
+let monthEmpty = false;
+let yearEmpty = false;
+let cvcEmpty = false;
 
 document.getElementById('html_body').onclick = function(){
     console.log('body clicked');
@@ -32,27 +32,27 @@ document.getElementById('html_body').onclick = function(){
         }
     }
 
-    if(nameOutlineRed){
+    if(nameEmpty){
         document.getElementById('name-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
         document.getElementById('name-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
-    if(numberOutlineRed){
+    if(numberEmpty){
         document.getElementById('number-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
         document.getElementById('number-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
-    if(monthOutlineRed){
+    if(monthEmpty){
         document.getElementById('month-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
         document.getElementById('month-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
-    if(yearOutlineRed){
+    if(yearEmpty){
         document.getElementById('year-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
         document.getElementById('year-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
-    if(cvcOutlineRed){
+    if(cvcEmpty){
         document.getElementById('cvc-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
         document.getElementById('cvc-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
@@ -61,28 +61,28 @@ document.getElementById('html_body').onclick = function(){
 
 document.getElementById('confirm-btn').onclick = function(){
     if(document.getElementById('name-input').value == ''){
-        nameOutlineRed = true;
+        nameEmpty = true;
     }else{
-        nameOutlineRed = false;
+        nameEmpty = false;
     }
     if(document.getElementById('number-input').value == ''){
-        numberOutlineRed = true;
+        numberEmpty = true;
     }else{
-        numberOutlineRed = false;
+        numberEmpty = false;
     }
     if(document.getElementById('month-input').value == ''){
-        monthOutlineRed = true;
+        monthEmpty = true;
     }else{
-        monthOutlineRed = false;
+        monthEmpty = false;
     }
     if(document.getElementById('year-input').value == ''){
-        yearOutlineRed = true;
+        yearEmpty = true;
     }else{
-        yearOutlineRed = false;
+        yearEmpty = false;
     }
     if(document.getElementById('cvc-input').value == ''){
-        cvcOutlineRed = true;
+        cvcEmpty = true;
     }else{
-        cvcOutlineRed = false;
+        cvcEmpty = false;
     }
 }
