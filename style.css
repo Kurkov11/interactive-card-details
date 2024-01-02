@@ -173,6 +173,8 @@ input:hover{
 
 #complete-state{
     display: none;
+    flex-direction: column;
+    justify-content: center;
 }
 @media only screen and (width >= 600px){
     input::placeholder{
