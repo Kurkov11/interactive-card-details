@@ -125,6 +125,11 @@ document.getElementById('confirm-btn').onclick = function(){
     }else{
         numberWrongFormat = false;
     }
+
+    if(!errorOcurred){
+        let listOfOneMain = document.getElementsByTagName('main');
+        listOfOneMain[0].style.display = 'none';
+    }
 }
 
 function isNumber(value){
