@@ -96,7 +96,7 @@ a{
     margin-bottom: 2rem;
 }
 input{
-    border: 1px solid hsla(279, 6%, 55%, 0.3);
+    outline: 1px solid hsla(279, 6%, 55%, 0.3);
     border-radius: 5px;
     padding: 0.7rem;
     background-color: white;
