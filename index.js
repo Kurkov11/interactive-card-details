@@ -34,13 +34,17 @@ document.getElementById('html_body').onclick = function(){
 
     if(nameEmpty){
         document.getElementById('name-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+        document.getElementById('name-blank').style.display = 'block';
     }else{
         document.getElementById('name-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+        document.getElementById('name-blank').style.display = 'none';
     }
     if(numberEmpty){
         document.getElementById('number-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+        document.getElementById('number-blank').style.display = 'block';
     }else{
         document.getElementById('number-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+        document.getElementById('number-blank').style.display = 'none';
     }
     if(monthEmpty){
         document.getElementById('month-input').style.outline = '1px solid hsl(0, 100%, 66%)';
@@ -54,8 +58,10 @@ document.getElementById('html_body').onclick = function(){
     }
     if(cvcEmpty){
         document.getElementById('cvc-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+        document.getElementById('cvc-blank').style.display = 'block';
     }else{
         document.getElementById('cvc-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+        document.getElementById('cvc-blank').style.display = 'none';
     }
 }
 
