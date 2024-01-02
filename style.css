@@ -188,6 +188,10 @@ input:hover{
     letter-spacing: 0.3rem;
     color: hsl(278, 68%, 11%);
 }
+#added-info{
+    color: hsl(279, 6%, 55%);
+    font-size: 1.1rem;
+}
 @media only screen and (width >= 600px){
     input::placeholder{
         font-size: 1.05rem; /* 0.05 rem increase */
