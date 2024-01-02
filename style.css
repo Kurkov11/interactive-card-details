@@ -182,6 +182,12 @@ input:hover{
     width: 70px;
     height: 70px;
 }
+#thank-you-text{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    color: hsl(278, 68%, 11%);
+}
 @media only screen and (width >= 600px){
     input::placeholder{
         font-size: 1.05rem; /* 0.05 rem increase */
