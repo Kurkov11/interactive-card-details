@@ -15,7 +15,6 @@ document.getElementById('html_body').onclick = function(){
 
     for(let i = 0; i < inputList.length; i++){
         if(document.activeElement == inputList[i]){
-            inputList[i].style.outline = '0';
             gradientList[i].style.backgroundImage = 'linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%))';
             for(let j = 0; j < inputList.length; j++){
                 if(j != i){
