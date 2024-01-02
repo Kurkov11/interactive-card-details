@@ -129,7 +129,7 @@ document.getElementById('confirm-btn').onclick = function(){
     if(!errorOcurred){
         let listOfOneMain = document.getElementsByTagName('main');
         listOfOneMain[0].style.display = 'none';
-        document.getElementById('complete-state').style.display = 'block';
+        document.getElementById('complete-state').style.display = 'flex';
     }
 }
 
