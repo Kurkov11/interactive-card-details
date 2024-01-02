@@ -105,3 +105,7 @@ document.getElementById('confirm-btn').onclick = function(){
         cvcEmpty = false;
     }
 }
+
+function isNumber(number){
+    return typeof number === 'number';
+}
