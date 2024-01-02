@@ -39,14 +39,14 @@
     <div id="forms-container">
       <section class="form">
         <p id="name-input-title" class="input-title">Cardholder Name</p>
-        <div class="input-gradient">
+        <div class="input-gradient" id="name-gradient">
           <input type="text" id="name-input" placeholder="e.g. Jane Appleseed" class="card-input">
         </div>
         <p class="blank-error" id="name-blank">Can't be blank</p>
       </section>
       <section class="form">
         <p id="number-input-title" class="input-title">Card Number</p>
-        <div class="input-gradient">
+        <div class="input-gradient" id="number-gradient">
           <input type="text" id="number-input" placeholder="e.g. 1234 5678 9123 0000" class="card-input">
         </div>
         <p class="blank-error" id="number-blank">Can't be blank</p>
@@ -58,7 +58,7 @@
               <div class="input-gradient" id="month-input-gradient">
                 <input type="text" id="month-input" placeholder="MM" class="card-input">
               </div>
-              <div class="input-gradient">
+              <div class="input-gradient" id="year-input-gradient">
                 <input type="text" id="year-input" placeholder="YY" class="card-input">
               </div>
           </div>
@@ -66,7 +66,7 @@
         </section>
         <section class="form" id="cvc-form">
           <p id="cvc-input-title" class="input-title">CVC</p>
-          <div class="input-gradient">
+          <div class="input-gradient" id="cvc-input-gradient">
             <input type="text" id="cvc-input" placeholder="e.g. 123" class="card-input">
           </div>
           <p class="blank-error" id="cvc-blank">Can't be blank</p>
