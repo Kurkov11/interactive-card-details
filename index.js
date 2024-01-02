@@ -6,6 +6,8 @@ let monthEmpty = false;
 let yearEmpty = false;
 let cvcEmpty = false;
 
+let numberWrongFormat = false;
+
 document.getElementById('html_body').onclick = function(){
     console.log('body clicked');
     let gradientList = document.getElementsByClassName('input-gradient');
