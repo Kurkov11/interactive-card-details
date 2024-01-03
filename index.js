@@ -56,6 +56,12 @@ document.getElementById('html_body').onclick = function(){
     }else{
         document.getElementById('month-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
+    if(monthWrongLength){
+        document.getElementById('month-input-gradient').style.backgroundImage = 'none';
+        document.getElementById('month-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+    }else{
+        document.getElementById('month-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+    }
 
     if(monthEmpty || yearEmpty){
         document.getElementById('date-blank').style.display = 'block';
@@ -69,6 +75,13 @@ document.getElementById('html_body').onclick = function(){
     }else{
         document.getElementById('year-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
+    if(yearWrongLength){
+        document.getElementById('year-input-gradient').style.backgroundImage = 'none';
+        document.getElementById('year-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+    }else{
+        document.getElementById('year-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+    }
+
     if(cvcEmpty){
         document.getElementById('cvc-input-gradient').style.backgroundImage = 'none';
         document.getElementById('cvc-input').style.outline = '1px solid hsl(0, 100%, 66%)';
@@ -76,6 +89,12 @@ document.getElementById('html_body').onclick = function(){
     }else{
         document.getElementById('cvc-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
         document.getElementById('cvc-blank').style.display = 'none';
+    }
+    if(cvcWrongLength){
+        document.getElementById('cvc-input-gradient').style.backgroundImage = 'none';
+        document.getElementById('cvc-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+    }else{
+        document.getElementById('cvc-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
     if(numberWrongFormat){
         document.getElementById('number-wrong-format').style.display = 'block';
@@ -116,7 +135,6 @@ document.getElementById('confirm-btn').onclick = function(){
         errorOcurred = true;
     }else{
         monthWrongLength = false;
-        errorOcurred = false;
     }
     if(document.getElementById('year-input').value == ''){
         yearEmpty = true;
@@ -129,7 +147,6 @@ document.getElementById('confirm-btn').onclick = function(){
         errorOcurred = true;
     }else{
         yearWrongLength = false;
-        errorOcurred = false;
     }
     if(document.getElementById('cvc-input').value == ''){
         cvcEmpty = true;
@@ -142,7 +159,6 @@ document.getElementById('confirm-btn').onclick = function(){
         errorOcurred = true;
     }else{
         cvcWrongLength = false;
-        errorOcurred = false;
     }
     if(!isNumber(document.getElementById('number-input').value)){
         numberWrongFormat = true;
