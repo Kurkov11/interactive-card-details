@@ -188,6 +188,12 @@ document.getElementById('confirm-btn').onclick = function(){
     }
 }
 
+document.getElementById('continue-btn').onclick = function(){
+    document.getElementById('complete-state').style.display = 'none';
+    let listOfOneMain = document.getElementsByTagName('main');
+    listOfOneMain[0].style.display = 'flex';
+}
+
 function isNumber(value){
     return !isNaN(value);
 }
