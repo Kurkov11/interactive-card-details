@@ -63,7 +63,7 @@ document.getElementById('html_body').onclick = function(){
         document.getElementById('month-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
 
-    if(monthEmpty || yearEmpty){
+    if(monthEmpty && yearEmpty){
         document.getElementById('date-blank').style.display = 'block';
     }else{
         document.getElementById('date-blank').style.display = 'none';
