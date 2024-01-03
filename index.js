@@ -8,6 +8,10 @@ let cvcEmpty = false;
 
 let numberWrongFormat = false;
 
+let monthWrongLength = false;
+let yearWrongLength = false;
+let cvcWrongLength = false;
+
 document.getElementById('html_body').onclick = function(){
     console.log('body clicked');
     let gradientList = document.getElementsByClassName('input-gradient');
@@ -107,17 +111,29 @@ document.getElementById('confirm-btn').onclick = function(){
     }else{
         monthEmpty = false;
     }
+    if(document.getElementById('month-input').value.length != 2){
+        monthWrongLength = true;
+        errorOcurred = true;
+    }
     if(document.getElementById('year-input').value == ''){
         yearEmpty = true;
         errorOcurred = true;
     }else{
         yearEmpty = false;
     }
+    if(document.getElementById('year-input').value.length != 2){
+        yearWrongLength = true;
+        errorOcurred = true;
+    }
     if(document.getElementById('cvc-input').value == ''){
         cvcEmpty = true;
         errorOcurred = true;
     }else{
         cvcEmpty = false;
+    }
+    if(document.getElementById('cvc-input').value.length != 2){
+        cvcWrongLength = true;
+        errorOcurred = true;
     }
     if(!isNumber(document.getElementById('number-input').value)){
         numberWrongFormat = true;
