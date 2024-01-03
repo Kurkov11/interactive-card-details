@@ -59,8 +59,10 @@ document.getElementById('html_body').onclick = function(){
     if(monthWrongFormat){
         document.getElementById('month-input-gradient').style.backgroundImage = 'none';
         document.getElementById('month-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+        document.getElementById('date-wrong-format').style.display = 'block';
     }else{
         document.getElementById('month-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+        document.getElementById('date-wrong-format').style.display = 'none';
     }
 
     if(monthEmpty || yearEmpty){
@@ -78,8 +80,10 @@ document.getElementById('html_body').onclick = function(){
     if(yearWrongFormat){
         document.getElementById('year-input-gradient').style.backgroundImage = 'none';
         document.getElementById('year-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+        document.getElementById('date-wrong-format').style.display = 'block';
     }else{
         document.getElementById('year-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+        document.getElementById('date-wrong-format').style.display = 'none';
     }
 
     if(cvcEmpty){
@@ -93,8 +97,10 @@ document.getElementById('html_body').onclick = function(){
     if(cvcWrongFormat){
         document.getElementById('cvc-input-gradient').style.backgroundImage = 'none';
         document.getElementById('cvc-input').style.outline = '1px solid hsl(0, 100%, 66%)';
+        document.getElementById('cvc-wrong-format').style.display = 'block';
     }else{
         document.getElementById('cvc-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
+        document.getElementById('cvc-wrong-format').style.display = 'none';
     }
     if(numberWrongFormat){
         document.getElementById('number-wrong-format').style.display = 'block';
