@@ -95,7 +95,7 @@ document.getElementById('html_body').onclick = function(){
         document.getElementById('cvc-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
         document.getElementById('cvc-blank').style.display = 'none';
     }
-    if(cvcWrongFormat){
+    if(cvcWrongFormat && !cvcEmpty){
         document.getElementById('cvc-input-gradient').style.backgroundImage = 'none';
         document.getElementById('cvc-input').style.outline = '1px solid hsl(0, 100%, 66%)';
         document.getElementById('cvc-wrong-format').style.display = 'block';
