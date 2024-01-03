@@ -180,6 +180,11 @@ document.getElementById('confirm-btn').onclick = function(){
         let listOfOneMain = document.getElementsByTagName('main');
         listOfOneMain[0].style.display = 'none';
         document.getElementById('complete-state').style.display = 'flex';
+        document.getElementById('cvc').innerHTML = document.getElementById('cvc-input').value;
+        document.getElementById('name').innerHTML = document.getElementById('name-input').value;
+        document.getElementById('number').innerHTML = document.getElementById('number-input').value;
+        document.getElementById('month').innerHTML = document.getElementById('month-input').value;
+        document.getElementById('year').innerHTML = document.getElementById('year-input').value;
     }
 }
 
