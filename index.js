@@ -114,6 +114,9 @@ document.getElementById('confirm-btn').onclick = function(){
     if(document.getElementById('month-input').value.length != 2){
         monthWrongLength = true;
         errorOcurred = true;
+    }else{
+        monthWrongLength = false;
+        errorOcurred = false;
     }
     if(document.getElementById('year-input').value == ''){
         yearEmpty = true;
@@ -124,6 +127,9 @@ document.getElementById('confirm-btn').onclick = function(){
     if(document.getElementById('year-input').value.length != 2){
         yearWrongLength = true;
         errorOcurred = true;
+    }else{
+        yearWrongLength = false;
+        errorOcurred = false;
     }
     if(document.getElementById('cvc-input').value == ''){
         cvcEmpty = true;
@@ -134,6 +140,9 @@ document.getElementById('confirm-btn').onclick = function(){
     if(document.getElementById('cvc-input').value.length != 3){
         cvcWrongLength = true;
         errorOcurred = true;
+    }else{
+        cvcWrongLength = false;
+        errorOcurred = false;
     }
     if(!isNumber(document.getElementById('number-input').value)){
         numberWrongFormat = true;
