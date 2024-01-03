@@ -169,7 +169,7 @@ document.getElementById('confirm-btn').onclick = function(){
     }else{
         cvcWrongFormat = false;
     }
-    if(!isNumber(document.getElementById('number-input').value)){
+    if(!isNumber(document.getElementById('number-input').value) || (document.getElementById('number-input').value.length != 16) && !numberEmpty){
         numberWrongFormat = true;
         errorOcurred = true;
     }else{
