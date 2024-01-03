@@ -8,9 +8,9 @@ let cvcEmpty = false;
 
 let numberWrongFormat = false;
 
-let monthWrongLength = false;
-let yearWrongLength = false;
-let cvcWrongLength = false;
+let monthWrongFormat = false;
+let yearWrongFormat = false;
+let cvcWrongFormat = false;
 
 document.getElementById('html_body').onclick = function(){
     console.log('body clicked');
@@ -56,7 +56,7 @@ document.getElementById('html_body').onclick = function(){
     }else{
         document.getElementById('month-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
-    if(monthWrongLength){
+    if(monthWrongFormat){
         document.getElementById('month-input-gradient').style.backgroundImage = 'none';
         document.getElementById('month-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
@@ -75,7 +75,7 @@ document.getElementById('html_body').onclick = function(){
     }else{
         document.getElementById('year-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
     }
-    if(yearWrongLength){
+    if(yearWrongFormat){
         document.getElementById('year-input-gradient').style.backgroundImage = 'none';
         document.getElementById('year-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
@@ -90,7 +90,7 @@ document.getElementById('html_body').onclick = function(){
         document.getElementById('cvc-input').style.outline = '1px solid hsla(279, 6%, 55%, 0.3)';
         document.getElementById('cvc-blank').style.display = 'none';
     }
-    if(cvcWrongLength){
+    if(cvcWrongFormat){
         document.getElementById('cvc-input-gradient').style.backgroundImage = 'none';
         document.getElementById('cvc-input').style.outline = '1px solid hsl(0, 100%, 66%)';
     }else{
@@ -131,10 +131,10 @@ document.getElementById('confirm-btn').onclick = function(){
         monthEmpty = false;
     }
     if(document.getElementById('month-input').value.length != 2){
-        monthWrongLength = true;
+        monthWrongFormat = true;
         errorOcurred = true;
     }else{
-        monthWrongLength = false;
+        monthWrongFormat = false;
     }
     if(document.getElementById('year-input').value == ''){
         yearEmpty = true;
@@ -143,10 +143,10 @@ document.getElementById('confirm-btn').onclick = function(){
         yearEmpty = false;
     }
     if(document.getElementById('year-input').value.length != 2){
-        yearWrongLength = true;
+        yearWrongFormat = true;
         errorOcurred = true;
     }else{
-        yearWrongLength = false;
+        yearWrongFormat = false;
     }
     if(document.getElementById('cvc-input').value == ''){
         cvcEmpty = true;
@@ -155,10 +155,10 @@ document.getElementById('confirm-btn').onclick = function(){
         cvcEmpty = false;
     }
     if(document.getElementById('cvc-input').value.length != 3){
-        cvcWrongLength = true;
+        cvcWrongFormat = true;
         errorOcurred = true;
     }else{
-        cvcWrongLength = false;
+        cvcWrongFormat = false;
     }
     if(!isNumber(document.getElementById('number-input').value)){
         numberWrongFormat = true;
