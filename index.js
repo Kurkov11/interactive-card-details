@@ -68,7 +68,7 @@ document.getElementById('html_body').onclick = function(){
     }else{
         document.getElementById('date-blank').style.display = 'none';
     }
-    if(monthWrongFormat == true || yearWrongFormat == true){
+    if((monthWrongFormat == true || yearWrongFormat == true) && !(monthEmpty && yearEmpty)){
         document.getElementById('date-wrong-format').style.display = 'block';
     }else{
         document.getElementById('date-wrong-format').style.display = 'none';
