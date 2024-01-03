@@ -131,7 +131,7 @@ document.getElementById('confirm-btn').onclick = function(){
     }else{
         cvcEmpty = false;
     }
-    if(document.getElementById('cvc-input').value.length != 2){
+    if(document.getElementById('cvc-input').value.length != 3){
         cvcWrongLength = true;
         errorOcurred = true;
     }
